@@ -12,6 +12,7 @@ import { CitiesNavComponent } from './cities-nav/cities-nav.component';
 import { LondonContentComponent } from './london-content/london-content.component';
 import { GibraltarContentComponent } from './gibraltar-content/gibraltar-content.component';
 import { SanfranciscoContentComponent } from './sanfrancisco-content/sanfrancisco-content.component';
+import { CitiesContentComponent } from './cities-content/cities-content.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SanfranciscoContentComponent } from './sanfrancisco-content/sanfrancisc
     CitiesNavComponent,
     LondonContentComponent,
     GibraltarContentComponent,
-    SanfranciscoContentComponent
+    SanfranciscoContentComponent,
+    CitiesContentComponent
   ],
   imports: [
     BrowserModule,

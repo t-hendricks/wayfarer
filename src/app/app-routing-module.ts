@@ -7,6 +7,7 @@ import { LondonContentComponent } from './london-content/london-content.componen
 import { GibraltarContentComponent } from './gibraltar-content/gibraltar-content.component';
 import { CitiesNavComponent } from './cities-nav/cities-nav.component';
 import { SanfranciscoContentComponent } from './sanfrancisco-content/sanfrancisco-content.component';
+import { CitiesContentComponent } from './cities-content/cities-content.component';
 
 const routes: Routes = [
     {
@@ -26,6 +27,10 @@ const routes: Routes = [
     {
         path: 'home',
         component: CitiesNavComponent,
+    },
+    {
+        path: 'cities/:id',
+        component: CitiesContentComponent,
     },
     {
         path: 'cities/1',
