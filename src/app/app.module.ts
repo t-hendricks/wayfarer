@@ -8,8 +8,9 @@ import { TopicComponent } from './topic/topic.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { LandingpageComponent } from './landingpage/landingpage.component';
 import { AppRoutingModule } from './app-routing-module';
-import { CitiespageComponent } from './citiespage/citiespage.component';
-import { CitiespageModule } from './citiespage/citiespage.module';
+import { SanfranciscoContentComponent } from './sanfrancisco-page/sanfrancisco-content/sanfrancisco-content.component';
+import { SanfranciscoPageComponent } from './sanfrancisco-page/sanfrancisco-page.component';
+import { SanfranciscoNavComponent } from './sanfrancisco-page/sanfrancisco-nav/sanfrancisco-nav.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +20,13 @@ import { CitiespageModule } from './citiespage/citiespage.module';
     TopicComponent,
     HomepageComponent,
     LandingpageComponent,
-    CitiespageComponent
+    SanfranciscoPageComponent,
+    SanfranciscoContentComponent,
+    SanfranciscoNavComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    CitiespageModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

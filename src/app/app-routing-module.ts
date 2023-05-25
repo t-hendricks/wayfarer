@@ -4,7 +4,7 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { HeroComponent } from './hero/hero.component';
 import { TopicComponent } from './topic/topic.component';
-import { CitiespageComponent } from './citiespage/citiespage.component';
+import { SanfranciscoPageComponent } from './sanfrancisco-page/sanfrancisco-page.component';
 
 const routes: Routes = [
     {
@@ -27,12 +27,12 @@ const routes: Routes = [
     },
     {
         path: 'cities/1',
-        component: CitiespageComponent,
+        component: SanfranciscoPageComponent,
     }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash: true })],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 
