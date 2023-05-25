@@ -2,14 +2,15 @@ nav {
     background-color: #f0f0f0;
   }
   
-  ul {
+  ul.menu {
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
   
   li {
-    display: inline-block;
     padding: 10px;
   }
   
@@ -20,5 +21,13 @@ nav {
   li.active {
     background-color: #555;
     color: #fff;
+  }
+  
+  @media (max-width: 600px) {
+    /* Optional: Apply vertical menu styles for smaller screens */
+    ul.menu {
+      display: flex;
+      flex-direction: column;
+    }
   }
   

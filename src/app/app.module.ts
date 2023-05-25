@@ -18,6 +18,9 @@ import { GibraltarContentComponent } from './gibraltar/gibraltar-content/gibralt
 import { NavigationComponent } from './navigation/navigation.component';
 import { GibraltarComponent } from './gibraltar/gibraltar.component';
 import { LondonComponent } from './london/london.component';
+import { GibraltarHeroComponent } from './gibraltar-hero/gibraltar-hero.component';
+import { SanfranciscoHeroComponent } from './sanfrancisco-hero/sanfrancisco-hero.component';
+import { LondonHeroComponent } from './london-hero/london-hero.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +39,10 @@ import { LondonComponent } from './london/london.component';
     GibraltarContentComponent,
     NavigationComponent,
     GibraltarComponent,
-    LondonComponent
+    LondonComponent,
+    GibraltarHeroComponent,
+    SanfranciscoHeroComponent,
+    LondonHeroComponent
   ],
   imports: [
     BrowserModule,
