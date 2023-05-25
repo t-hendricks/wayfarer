@@ -11,6 +11,10 @@ import { AppRoutingModule } from './app-routing-module';
 import { SanfranciscoContentComponent } from './sanfrancisco-page/sanfrancisco-content/sanfrancisco-content.component';
 import { SanfranciscoPageComponent } from './sanfrancisco-page/sanfrancisco-page.component';
 import { SanfranciscoNavComponent } from './sanfrancisco-page/sanfrancisco-nav/sanfrancisco-nav.component';
+import { CitiespageComponent } from './citiespage/citiespage.component';
+import { CitiesNavComponent } from './cities-nav/cities-nav.component';
+import { LondonContentComponent } from './london-content/london-content.component';
+import { GibraltarContentComponent } from './gibraltar-content/gibraltar-content.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { SanfranciscoNavComponent } from './sanfrancisco-page/sanfrancisco-nav/s
     LandingpageComponent,
     SanfranciscoPageComponent,
     SanfranciscoContentComponent,
-    SanfranciscoNavComponent
+    SanfranciscoNavComponent,
+    CitiespageComponent,
+    CitiesNavComponent,
+    LondonContentComponent,
+    GibraltarContentComponent
   ],
   imports: [
     BrowserModule,

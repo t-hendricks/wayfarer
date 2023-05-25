@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { cities } from '../citiesdata';
 
 
 
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent {
-
+  cities = cities;
 }
