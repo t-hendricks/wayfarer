@@ -6,7 +6,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HeroComponent } from './hero/hero.component';
 import { TopicComponent } from './topic/topic.component';
 import { HomepageComponent } from './homepage/homepage.component';
-import { RouterModule } from '@angular/router';
+import { LandingpageComponent } from './landingpage/landingpage.component';
+import { AppRoutingModule } from './app-routing-module';
 
 @NgModule({
   declarations: [
@@ -14,16 +15,22 @@ import { RouterModule } from '@angular/router';
     NavBarComponent,
     HeroComponent,
     TopicComponent,
-    HomepageComponent
+    HomepageComponent,
+    LandingpageComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot([
-      {
-        path: 'home',
-        component: HomepageComponent
-      }
-    ])
+    AppRoutingModule
+    // RouterModule.forRoot([
+    //   {
+    //     path: '',
+    //     component: LandingpageComponent
+    //   },
+    //   {
+    //     path: 'home',
+    //     component: HomepageComponent
+    //   }
+    // ])
   ],
   providers: [],
   bootstrap: [AppComponent]
