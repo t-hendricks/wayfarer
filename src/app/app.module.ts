@@ -8,6 +8,8 @@ import { TopicComponent } from './topic/topic.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { LandingpageComponent } from './landingpage/landingpage.component';
 import { AppRoutingModule } from './app-routing-module';
+import { CitiespageComponent } from './citiespage/citiespage.component';
+import { CitiespageModule } from './citiespage/citiespage.module';
 
 @NgModule({
   declarations: [
@@ -16,21 +18,13 @@ import { AppRoutingModule } from './app-routing-module';
     HeroComponent,
     TopicComponent,
     HomepageComponent,
-    LandingpageComponent
+    LandingpageComponent,
+    CitiespageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-    // RouterModule.forRoot([
-    //   {
-    //     path: '',
-    //     component: LandingpageComponent
-    //   },
-    //   {
-    //     path: 'home',
-    //     component: HomepageComponent
-    //   }
-    // ])
+    AppRoutingModule,
+    CitiespageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
