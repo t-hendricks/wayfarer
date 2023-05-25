@@ -13,8 +13,11 @@ import { SanfranciscoPageComponent } from './sanfrancisco-page/sanfrancisco-page
 import { SanfranciscoNavComponent } from './sanfrancisco-page/sanfrancisco-nav/sanfrancisco-nav.component';
 import { CitiespageComponent } from './citiespage/citiespage.component';
 import { CitiesNavComponent } from './cities-nav/cities-nav.component';
-import { LondonContentComponent } from './london-content/london-content.component';
-import { GibraltarContentComponent } from './gibraltar-content/gibraltar-content.component';
+import { LondonContentComponent } from './london/london-content/london-content.component';
+import { GibraltarContentComponent } from './gibraltar/gibraltar-content/gibraltar-content.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { GibraltarComponent } from './gibraltar/gibraltar.component';
+import { LondonComponent } from './london/london.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { GibraltarContentComponent } from './gibraltar-content/gibraltar-content
     CitiespageComponent,
     CitiesNavComponent,
     LondonContentComponent,
-    GibraltarContentComponent
+    GibraltarContentComponent,
+    NavigationComponent,
+    GibraltarComponent,
+    LondonComponent
   ],
   imports: [
     BrowserModule,

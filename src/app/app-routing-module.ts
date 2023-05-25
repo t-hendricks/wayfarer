@@ -7,9 +7,10 @@ import { TopicComponent } from './topic/topic.component';
 import { SanfranciscoPageComponent } from './sanfrancisco-page/sanfrancisco-page.component';
 import { CitiespageComponent } from './citiespage/citiespage.component';
 import { SanfranciscoContentComponent } from './sanfrancisco-page/sanfrancisco-content/sanfrancisco-content.component';
-import { LondonContentComponent } from './london-content/london-content.component';
-import { GibraltarContentComponent } from './gibraltar-content/gibraltar-content.component';
+import { LondonContentComponent } from './london/london-content/london-content.component';
 import { CitiesNavComponent } from './cities-nav/cities-nav.component';
+import { GibraltarComponent } from './gibraltar/gibraltar.component';
+import { LondonComponent } from './london/london.component';
 
 const routes: Routes = [
     {
@@ -36,11 +37,11 @@ const routes: Routes = [
     },
     {
         path: 'cities/2',
-        component: LondonContentComponent,
+        component: LondonComponent,
     },
     {
         path: 'cities/3',
-        component: GibraltarContentComponent,
+        component: GibraltarComponent,
     }
 ];
 
