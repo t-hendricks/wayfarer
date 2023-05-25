@@ -8,13 +8,10 @@ import { TopicComponent } from './topic/topic.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { LandingpageComponent } from './landingpage/landingpage.component';
 import { AppRoutingModule } from './app-routing-module';
-import { SanfranciscoContentComponent } from './sanfrancisco-page/sanfrancisco-content/sanfrancisco-content.component';
-import { SanfranciscoPageComponent } from './sanfrancisco-page/sanfrancisco-page.component';
-import { SanfranciscoNavComponent } from './sanfrancisco-page/sanfrancisco-nav/sanfrancisco-nav.component';
-import { CitiespageComponent } from './citiespage/citiespage.component';
 import { CitiesNavComponent } from './cities-nav/cities-nav.component';
 import { LondonContentComponent } from './london-content/london-content.component';
 import { GibraltarContentComponent } from './gibraltar-content/gibraltar-content.component';
+import { SanfranciscoContentComponent } from './sanfrancisco-content/sanfrancisco-content.component';
 
 @NgModule({
   declarations: [
@@ -24,13 +21,10 @@ import { GibraltarContentComponent } from './gibraltar-content/gibraltar-content
     TopicComponent,
     HomepageComponent,
     LandingpageComponent,
-    SanfranciscoPageComponent,
-    SanfranciscoContentComponent,
-    SanfranciscoNavComponent,
-    CitiespageComponent,
     CitiesNavComponent,
     LondonContentComponent,
-    GibraltarContentComponent
+    GibraltarContentComponent,
+    SanfranciscoContentComponent
   ],
   imports: [
     BrowserModule,
