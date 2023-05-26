@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
@@ -8,11 +9,12 @@ import { CitiesNavComponent } from './cities-nav/cities-nav.component';
 import { CitiesContentComponent } from './cities-content/cities-content.component';
 import { LandingpageModule } from './landingpage/landingpage.module';
 import { PostComponent } from './post/post.component';
+import { NavBarModule } from './nav-bar/nav-bar.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent,
+    // NavBarComponent,
     CitiesNavComponent,
     CitiesContentComponent,
     PostComponent
@@ -20,7 +22,9 @@ import { PostComponent } from './post/post.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LandingpageModule
+    LandingpageModule,
+    // FormsModule,
+    NavBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
