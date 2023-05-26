@@ -3,18 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { HeroComponent } from './hero/hero.component';
-import { TopicComponent } from './topic/topic.component';
+import { AppRoutingModule } from './app.routing.module';
+import { CitiesNavComponent } from './cities-nav/cities-nav.component';
+import { CitiesContentComponent } from './cities-content/cities-content.component';
+import { LandingpageModule } from './landingpage/landingpage.module';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    HeroComponent,
-    TopicComponent
+    CitiesNavComponent,
+    CitiesContentComponent,
+    PostComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    LandingpageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

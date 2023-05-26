@@ -1,26 +1,19 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Wayfarer</a>
+    <a routerLink="/" class="navbar-brand">Wayfarer</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-       
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Cities
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">San Francisco</a></li>
-            <li><a class="dropdown-item" href="#">London</a></li>
-            <li><a class="dropdown-item" href="#">Sidney</a></li>
-            <li><a class="dropdown-item" href="#">Seattle</a></li>
-            <li><a class="dropdown-item" href="#">Gibraltar</a></li>
-           
+            <li><a routerLink="/cities/1" class="dropdown-item">San Francisco</a></li>
+            <li><a routerLink="/cities/2" class="dropdown-item">London</a></li>
+            <li><a routerLink="/cities/3" class="dropdown-item">Gibraltar</a></li>
           </ul>
         </li>
         

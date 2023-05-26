@@ -1,0 +1,49 @@
+<div class="container text-center" *ngIf="city">
+  <div class="row">
+      <div class="col-4">
+          
+        <app-cities-nav></app-cities-nav>
+
+      </div>
+      <div class="col-8">
+          
+          <div class="container-md">
+              <div class="d-flex">
+                <div class="p-2 w-100">
+                  <h1 style="text-align: center;">{{city.name}}</h1>
+                  <h4 style="text-align: center;">{{city.country}}</h4>
+                </div>
+                <div class="p-2 w-100">
+                  <img src="{{city.image}}" alt="image of the city" width="100%">
+                </div>
+              </div>
+            </div>
+            
+            <figure>
+              <blockquote class="blockquote">
+                <p>Posts</p>
+              </blockquote>
+            </figure>            
+
+            <div class="container-lg" *ngFor="let post of city.posts">
+              <div class="container-lg">
+                <div class="row mb-2">
+                  <div class="col-md-12">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                      <div class="col-auto d-none d-lg-block">
+                        <img src="{{post.image}}" alt="image of the city" width="200" height="125">
+                      </div>
+                      <div class="col p-4 d-flex flex-column position-static">
+                        <a routerLink="/cities/{{city.id}}/{{post.id}}">
+                          <h3 class="mb-0">{{post.title}}</h3>
+                        </a>
+                        <p class="card-text mb-auto">{{post.description}}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+      </div>
+  </div>
+</div>
