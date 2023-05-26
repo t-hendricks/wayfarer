@@ -22,3 +22,4 @@ describe('CitiesContentComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+

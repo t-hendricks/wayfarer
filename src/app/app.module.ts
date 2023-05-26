@@ -8,6 +8,7 @@ import { CitiesNavComponent } from './cities-nav/cities-nav.component';
 import { CitiesContentComponent } from './cities-content/cities-content.component';
 import { LandingpageModule } from './landingpage/landingpage.module';
 import { PostComponent } from './post/post.component';
+import { FooterComponent } from './landingpage/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PostComponent } from './post/post.component';
     NavBarComponent,
     CitiesNavComponent,
     CitiesContentComponent,
-    PostComponent
+    PostComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
