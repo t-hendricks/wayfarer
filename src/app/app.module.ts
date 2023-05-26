@@ -10,6 +10,7 @@ import { CitiesContentComponent } from './cities-content/cities-content.componen
 import { LandingpageModule } from './landingpage/landingpage.module';
 import { PostComponent } from './post/post.component';
 import { CitiesContentRoutingModule } from './cities-content/cities-content.routing.module';
+import { PostRoutingModule } from './post/post.routing.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CitiesContentRoutingModule } from './cities-content/cities-content.rout
     BrowserModule,
     AppRoutingModule,
     LandingpageModule,
-    CitiesContentRoutingModule
+    CitiesContentRoutingModule,
+    PostRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CitiesContentComponent } from './cities-content.component';
 import { PostComponent } from '../post/post.component';
-import { NavBarComponent } from '../nav-bar/nav-bar.component';
+import { CitiesContentComponent } from '../cities-content/cities-content.component';
 
-const cityRoutes: Routes = [
+const postRoutes: Routes = [
     {
         path: 'cities/:id',
         component: CitiesContentComponent,
@@ -18,8 +17,8 @@ const cityRoutes: Routes = [
 ];
 
 @NgModule({
-    imports: [RouterModule.forChild(cityRoutes)],
+    imports: [RouterModule.forChild(postRoutes)],
     exports: [RouterModule]
 })
 
-export class CitiesContentRoutingModule { }
+export class PostRoutingModule { }

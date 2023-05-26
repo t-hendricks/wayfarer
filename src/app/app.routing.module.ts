@@ -14,10 +14,16 @@ const routes: Routes = [
         path: 'home',
         component: HomepageComponent,
     },
+    // https://stackoverflow.com/questions/42129460/hide-parent-view-in-angular-2
     {
         path: 'cities/:id',
-        component: CitiesContentComponent,
+        // component: CitiesContentComponent,
         children: [
+            {
+                path: '',
+                pathMatch: 'full',
+                component: CitiesContentComponent
+            },
             {
                 path: 'posts',
                 component: PostComponent
