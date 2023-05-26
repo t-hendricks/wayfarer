@@ -6,6 +6,7 @@ export interface Cities {
     country: string;
     image: string;
     posts: Posts[];
+    heroImage: string[];
 }
 
 function addPosts(cityName: string): any {
@@ -25,20 +26,23 @@ export const cities: Cities[] = [
         name: 'San Francisco',
         country: 'United States',
         image: '../../assets/sanfrancisco.jpeg',
-        posts: addPosts('San Francisco')
+        posts: addPosts('San Francisco'),
+        heroImage: ['../../assets/sanfrancisco.jpg', '../../assets/sanfrancisco2.jpg', '../../assets/sanfrancisco3.jpg']
     },
     {
         id: 2,
         name: 'London',
         country: 'United Kingdom',
         image: '../../assets/london.jpeg',
-        posts: addPosts('London')
+        posts: addPosts('London'),
+        heroImage: ['../../assets/london.jpg', '../../assets/london2.jpg', '../../assets/london3.jpg']
     },
     {
         id: 3,
         name: 'Gibraltar',
         country: 'Spain',
         image: '../../assets/gibraltar.jpeg',
-        posts: addPosts('Gibraltar')
+        posts: addPosts('Gibraltar'),
+        heroImage: ['../../assets/gilbratar.jpg', '../../assets/gilbratar2.jpg', '../../assets/gilbratar3.jpg']
     },
 ]
