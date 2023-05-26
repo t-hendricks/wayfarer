@@ -4,8 +4,6 @@ import { HeroComponent } from './hero/hero.component';
 import { TopicComponent } from './topic/topic.component';
 import { LandingpageComponent } from './landingpage.component';
 
-
-
 @NgModule({
   declarations: [
     HeroComponent,

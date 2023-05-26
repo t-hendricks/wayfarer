@@ -9,8 +9,8 @@ import { CitiesNavComponent } from './cities-nav/cities-nav.component';
 import { CitiesContentComponent } from './cities-content/cities-content.component';
 import { LandingpageModule } from './landingpage/landingpage.module';
 import { PostComponent } from './post/post.component';
-import { CitiesContentRoutingModule } from './cities-content/cities-content.routing.module';
-import { PostRoutingModule } from './post/post.routing.module';
+// import { CitiesContentRoutingModule } from './cities-content/cities-content.routing.module';
+// import { PostRoutingModule } from './post/post.routing.module';
 
 @NgModule({
   declarations: [
@@ -25,8 +25,8 @@ import { PostRoutingModule } from './post/post.routing.module';
     BrowserModule,
     AppRoutingModule,
     LandingpageModule,
-    CitiesContentRoutingModule,
-    PostRoutingModule
+    // CitiesContentRoutingModule,
+    // PostRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

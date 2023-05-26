@@ -12,7 +12,7 @@ export class CitiesNavComponent {
 
   constructor (private router: Router) {}
 
-  pathForCity(cityId: number): void {
-    this.router.navigate([`cities/$(cityId)`]);
-  }
+  // pathForCity(cityId: number): void {
+  //   this.router.navigate([`cities/$(cityId)`]);
+  // }
 }
