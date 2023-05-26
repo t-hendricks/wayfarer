@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { cities } from '../citiesdata'
+import { cities, Posts } from '../citiesdata'
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -8,24 +8,17 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./post.component.css']
 })
 
-export class PostComponent {
+export class PostComponent implements OnInit {
+  post: Posts | undefined;
+  posts: Posts[] = [];
 
+  constructor(private route: ActivatedRoute){}
+
+  ngOnInit() {
+    this.route.paramMap.subscribe(params => {
+      const paramPostId: string = params.get('postId') || '';
+      this.posts = cities.flatMap(city => city.posts);
+      this.post = this.posts.find(post => post.id === parseInt(paramPostId));
+    });    
+  }
 }
-
-// export class PostComponent implements OnInit {
-//   cities = cities;
-//   postIndex: string | null = '';
-//   post: any;
-
-//   constructor(private route: ActivatedRoute) { }
-
-//     ngOnInit() {
-//     this.route.paramMap
-//     .subscribe( params => {
-//       this.post = cities.find( post => {
-//         let paramId: string = params.getAll('id')[1] || '';
-//         return post.id === parseInt(paramId);
-//       });    
-//     });
-//   }
-// }

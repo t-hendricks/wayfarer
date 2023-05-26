@@ -34,8 +34,7 @@
                         <img src="{{city.posts[0].image}}" alt="image of the city" width="200" height="125">
                       </div>
                       <div class="col p-4 d-flex flex-column position-static">
-                        <!-- <a routerLink="/cities/{{city.id}}/{{city.posts[0].id}}"> -->
-                        <a routerLink="/cities/{{city.id}}/posts">
+                        <a routerLink="/cities/{{city.id}}/{{city.posts[0].id}}">
                           <h3 class="mb-0">{{city.posts[0].title}}</h3>
                         </a>
                         <p class="card-text mb-auto">{{city.posts[0].description}}</p>
@@ -53,7 +52,9 @@
                         <img src="{{city.posts[1].image}}" alt="image of the city" width="200" height="125">
                       </div>
                       <div class="col p-4 d-flex flex-column position-static">
-                        <h3 class="mb-0">{{city.posts[1].title}}</h3>
+                        <a routerLink="/cities/{{city.id}}/{{city.posts[1].id}}">
+                          <h3 class="mb-0">{{city.posts[1].title}}</h3>
+                        </a>
                         <p class="card-text mb-auto">{{city.posts[1].description}}</p>
                       </div>
                     </div>

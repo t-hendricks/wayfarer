@@ -41,13 +41,13 @@ export const cities: Cities[] = [
         image: '../../assets/london.jpeg',
         posts: [
             {
-                id: 1,
+                id: 3,
                 title: "They're journey",
                 description: "They're description.......",
                 image: '../../assets/london.jpeg'
             },
             {
-                id: 2,
+                id: 4,
                 title: "Our journey",
                 description: "Our description is the best! ",
                 image: '../../assets/london.jpeg'
@@ -61,13 +61,13 @@ export const cities: Cities[] = [
         image: '../../assets/gibraltar.jpeg',
         posts: [
             {
-                id: 1,
+                id: 5,
                 title: "Journey",
                 description: "Music concert",
                 image: '../../assets/gibraltar.jpeg'
             },
             {
-                id: 2,
+                id: 6,
                 title: "Journey2",
                 description: "Descriptionsssssss",
                 image: '../../assets/gibraltar.jpeg'

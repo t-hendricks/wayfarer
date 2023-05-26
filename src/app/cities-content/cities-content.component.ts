@@ -12,8 +12,6 @@ export class CitiesContentComponent implements OnInit {
   cityIndex: string | null = '';
   city: any;
   post: any;
-  // city: Cities | undefined;
-  // post: Posts | undefined
 
   constructor(private route: ActivatedRoute){}
 
@@ -26,16 +24,4 @@ export class CitiesContentComponent implements OnInit {
       });    
     });
   }
-
-
-  // ngOnInit() {
-  //   this.route.paramMap.subscribe(params => {
-  //     let paramId: string = params.get('id') || '';
-  //     let paramPostId: string = params.getAll('id')[1] || '';
-  
-  //     this.city = cities.find(city => city.id === parseInt(paramId));
-  //     this.post = this.city?.posts.find(post => post.id === parseInt(paramPostId));
-  //   });
-  // }  
-
 }

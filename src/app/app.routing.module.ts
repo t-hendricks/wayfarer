@@ -25,7 +25,7 @@ const routes: Routes = [
                 component: CitiesContentComponent
             },
             {
-                path: 'posts',
+                path: ':postId',
                 component: PostComponent
             }
         ]

@@ -10,7 +10,7 @@ const cityRoutes: Routes = [
         component: CitiesContentComponent,
         children: [
             {
-                path: 'posts',
+                path: ':postId',
                 component: PostComponent
             }
         ]
