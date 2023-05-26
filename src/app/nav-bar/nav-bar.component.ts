@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { cities } from '../citiesdata';
+import { cities } from '../data/citiesdata';
 
 
 
