@@ -9,9 +9,6 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { LandingpageComponent } from './landingpage/landingpage.component';
 import { AppRoutingModule } from './app-routing-module';
 import { CitiesNavComponent } from './cities-nav/cities-nav.component';
-import { LondonContentComponent } from './london-content/london-content.component';
-import { GibraltarContentComponent } from './gibraltar-content/gibraltar-content.component';
-import { SanfranciscoContentComponent } from './sanfrancisco-content/sanfrancisco-content.component';
 import { CitiesContentComponent } from './cities-content/cities-content.component';
 
 @NgModule({
@@ -23,9 +20,6 @@ import { CitiesContentComponent } from './cities-content/cities-content.componen
     HomepageComponent,
     LandingpageComponent,
     CitiesNavComponent,
-    LondonContentComponent,
-    GibraltarContentComponent,
-    SanfranciscoContentComponent,
     CitiesContentComponent
   ],
   imports: [
