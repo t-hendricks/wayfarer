@@ -5,6 +5,7 @@ export interface Posts {
     image: string;
     author: string;
     content: string;
+    city: string;
 }
 
 export const posts: Posts[] = [
@@ -14,7 +15,8 @@ export const posts: Posts[] = [
         description: "My description is perfect! :)",
         image: '../../assets/sanfrancisco.jpeg',
         author: '',
-        content: ''
+        content: '',
+        city: 'San Francisco'
     },
     {
         id: 2,
@@ -22,7 +24,8 @@ export const posts: Posts[] = [
         description: "Your description is not perfect! :(",
         image: '../../assets/sanfrancisco.jpeg',
         author: '',
-        content: ''
+        content: '',
+        city: 'San Francisco'
     },
     {
         id: 3,
@@ -30,7 +33,8 @@ export const posts: Posts[] = [
         description: "They're description.......",
         image: '../../assets/london.jpeg',
         author: '',
-        content: ''
+        content: '',
+        city: 'London'
     },
     {
         id: 4,
@@ -38,7 +42,8 @@ export const posts: Posts[] = [
         description: "Our description is the best! ",
         image: '../../assets/london.jpeg',
         author: '',
-        content: ''
+        content: '',
+        city: 'London'
     },
     {
         id: 5,
@@ -46,7 +51,8 @@ export const posts: Posts[] = [
         description: "Music concert",
         image: '../../assets/gibraltar.jpeg',
         author: '',
-        content: ''
+        content: '',
+        city: 'Gibraltar'
     },
     {
         id: 6,
@@ -54,6 +60,16 @@ export const posts: Posts[] = [
         description: "Descriptionsssssss",
         image: '../../assets/gibraltar.jpeg',
         author: '',
-        content: ''
+        content: '',
+        city: 'Gibraltar'
+    },
+    {
+        id: 7,
+        title: "THIS IS MY journey!!!!!!!",
+        description: "Your description is not perfect! :(",
+        image: '../../assets/sanfrancisco.jpeg',
+        author: '',
+        content: '',
+        city: 'San Francisco'
     }
 ]

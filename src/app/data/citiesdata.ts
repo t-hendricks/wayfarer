@@ -8,35 +8,37 @@ export interface Cities {
     posts: Posts[];
 }
 
+function addPosts(cityName: string): any {
+    let cityPosts: Posts[] = [];
+    for(let i = posts.length - 1; i >= 0; i--) {
+        if (posts[i].city === cityName) {
+            cityPosts.push(posts[i]);
+        }
+    }
+
+    return cityPosts;
+}
+
 export const cities: Cities[] = [
     {
         id: 1,
         name: 'San Francisco',
         country: 'United States',
         image: '../../assets/sanfrancisco.jpeg',
-        posts: [
-            posts[0],
-            posts[1]
-        ]
+        posts: addPosts('San Francisco')
     },
     {
         id: 2,
         name: 'London',
         country: 'United Kingdom',
         image: '../../assets/london.jpeg',
-        posts: [
-            posts[2],
-            posts[3]
-        ]
+        posts: addPosts('London')
     },
     {
         id: 3,
         name: 'Gibraltar',
         country: 'Spain',
         image: '../../assets/gibraltar.jpeg',
-        posts: [
-            posts[4],
-            posts[5]
-        ]
+        posts: addPosts('Gibraltar')
     },
 ]
