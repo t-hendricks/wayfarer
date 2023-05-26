@@ -8,6 +8,7 @@ import { GibraltarContentComponent } from './gibraltar-content/gibraltar-content
 import { CitiesNavComponent } from './cities-nav/cities-nav.component';
 import { SanfranciscoContentComponent } from './sanfrancisco-content/sanfrancisco-content.component';
 import { CitiesContentComponent } from './cities-content/cities-content.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 const routes: Routes = [
     {
@@ -26,24 +27,24 @@ const routes: Routes = [
     },
     {
         path: 'home',
-        component: CitiesNavComponent,
+        component: HomepageComponent,
     },
     {
         path: 'cities/:id',
         component: CitiesContentComponent,
     },
-    {
-        path: 'cities/1',
-        component: SanfranciscoContentComponent,
-    },
-    {
-        path: 'cities/2',
-        component: LondonContentComponent,
-    },
-    {
-        path: 'cities/3',
-        component: GibraltarContentComponent,
-    }
+    // {
+    //     path: 'cities/1',
+    //     component: CitiesContentComponent,
+    // },
+    // {
+    //     path: 'cities/2',
+    //     component: LondonContentComponent,
+    // },
+    // {
+    //     path: 'cities/3',
+    //     component: GibraltarContentComponent,
+    // }
 ];
 
 @NgModule({

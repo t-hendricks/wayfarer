@@ -18,6 +18,6 @@ export const cities: Cities[] = [
     {
         id: 3,
         name: 'Gibraltar',
-        country: 'United Kingdom'
+        country: 'Spain'
     },
 ]
