@@ -3,20 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { HomepageComponent } from './homepage/homepage.component';
 import { AppRoutingModule } from './app.routing.module';
 import { CitiesNavComponent } from './cities-nav/cities-nav.component';
 import { CitiesContentComponent } from './cities-content/cities-content.component';
 import { LandingpageModule } from './landingpage/landingpage.module';
 import { PostComponent } from './post/post.component';
-// import { CitiesContentRoutingModule } from './cities-content/cities-content.routing.module';
-// import { PostRoutingModule } from './post/post.routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    HomepageComponent,
     CitiesNavComponent,
     CitiesContentComponent,
     PostComponent
@@ -25,8 +21,6 @@ import { PostComponent } from './post/post.component';
     BrowserModule,
     AppRoutingModule,
     LandingpageModule,
-    // CitiesContentRoutingModule,
-    // PostRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
