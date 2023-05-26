@@ -8,6 +8,8 @@ import { AppRoutingModule } from './app.routing.module';
 import { CitiesNavComponent } from './cities-nav/cities-nav.component';
 import { CitiesContentComponent } from './cities-content/cities-content.component';
 import { LandingpageModule } from './landingpage/landingpage.module';
+import { PostComponent } from './post/post.component';
+import { CitiesContentRoutingModule } from './cities-content/cities-content.routing.module';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,14 @@ import { LandingpageModule } from './landingpage/landingpage.module';
     NavBarComponent,
     HomepageComponent,
     CitiesNavComponent,
-    CitiesContentComponent
+    CitiesContentComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LandingpageModule
+    LandingpageModule,
+    CitiesContentRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

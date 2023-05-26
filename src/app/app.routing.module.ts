@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { LandingpageComponent } from './landingpage/landingpage.component';
 import { CitiesContentComponent } from './cities-content/cities-content.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { PostComponent } from './post/post.component';
 
 const routes: Routes = [
     {
@@ -16,6 +17,12 @@ const routes: Routes = [
     {
         path: 'cities/:id',
         component: CitiesContentComponent,
+        children: [
+            {
+                path: 'posts',
+                component: PostComponent
+            }
+        ]
     }
 ];
 

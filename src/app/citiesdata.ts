@@ -1,4 +1,4 @@
-interface Cities {
+export interface Cities {
     id: number;
     name: string;
     country: string;
@@ -6,7 +6,7 @@ interface Cities {
     posts: Posts[];
 }
 
-interface Posts {
+export interface Posts {
     id: number;
     title: string;
     description: string;
