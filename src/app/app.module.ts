@@ -20,7 +20,7 @@ import { PostComponent } from './post/post.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LandingpageModule,
+    LandingpageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

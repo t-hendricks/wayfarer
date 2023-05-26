@@ -11,8 +11,4 @@ export class CitiesNavComponent {
   cities = cities;
 
   constructor (private router: Router) {}
-
-  // pathForCity(cityId: number): void {
-  //   this.router.navigate([`cities/$(cityId)`]);
-  // }
 }
