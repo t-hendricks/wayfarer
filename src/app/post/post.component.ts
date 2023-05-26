@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { cities, Posts } from '../citiesdata'
+import { cities } from '../data/citiesdata';
+import { Posts } from '../data/postsdata';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({

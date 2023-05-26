@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { cities } from '../citiesdata';
+import { cities } from '../data/citiesdata';
 
 @Component({
   selector: 'app-cities-nav',
