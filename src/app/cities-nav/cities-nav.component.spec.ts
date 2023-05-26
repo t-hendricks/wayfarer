@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CitiesNavComponent } from './cities-nav.component';
+import { RouterTestingModule } from '@angular/router/testing';
 
 describe('CitiesNavComponent', () => {
   let component: CitiesNavComponent;
@@ -8,7 +9,8 @@ describe('CitiesNavComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [CitiesNavComponent]
+      declarations: [CitiesNavComponent],
+      imports: [RouterTestingModule]
     });
     fixture = TestBed.createComponent(CitiesNavComponent);
     component = fixture.componentInstance;
