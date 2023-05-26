@@ -1,4 +1,4 @@
-<div class="container text-center">
+<div class="container text-center" *ngIf="city">
   <div class="row">
       <div class="col-4">
           
@@ -9,7 +9,7 @@
           
           <div class="container-md">
               <div class="d-flex">
-                <div class="p-2 w-100" *ngIf="city">
+                <div class="p-2 w-100">
                   <h1 style="text-align: center;">{{city.name}}</h1>
                   <h4 style="text-align: center;">{{city.country}}</h4>
                 </div>
