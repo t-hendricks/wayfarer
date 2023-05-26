@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomepageComponent } from './homepage/homepage.component';
-import { AppRoutingModule } from './app-routing-module';
+import { AppRoutingModule } from './app.routing.module';
 import { CitiesNavComponent } from './cities-nav/cities-nav.component';
 import { CitiesContentComponent } from './cities-content/cities-content.component';
 import { LandingpageModule } from './landingpage/landingpage.module';

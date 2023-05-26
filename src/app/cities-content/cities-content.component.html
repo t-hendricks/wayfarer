@@ -19,21 +19,23 @@
               </div>
             </div>
             
+            <figure>
+              <blockquote class="blockquote">
+                <p>Posts</p>
+              </blockquote>
+            </figure>            
+
             <div class="container-lg">
               <div class="container-lg">
                 <div class="row mb-2">
                   <div class="col-md-12">
                     <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                      <div class="col p-4 d-flex flex-column position-static">
-                        <h3 class="mb-0">Title</h3>
-                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                      </div>
                       <div class="col-auto d-none d-lg-block">
-                        <svg class="bd-placeholder-img" width="200" height="125" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                          <title>Placeholder</title>
-                          <rect width="100%" height="100%" fill="#55595C"/>
-                          <text x="50%" y="50%" fill="#ECEEEF" dy=".3em">Thumbnail</text>
-                        </svg>
+                        <img src="{{city.posts[0].image}}" alt="image of the city" width="200" height="125">
+                      </div>
+                      <div class="col p-4 d-flex flex-column position-static">
+                        <h3 class="mb-0">{{city.posts[0].title}}</h3>
+                        <p class="card-text mb-auto">{{city.posts[0].description}}</p>
                       </div>
                     </div>
                   </div>
@@ -44,16 +46,12 @@
                 <div class="row mb-2">
                   <div class="col-md-12">
                     <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                      <div class="col p-4 d-flex flex-column position-static">
-                        <h3 class="mb-0">Title</h3>
-                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                      </div>
                       <div class="col-auto d-none d-lg-block">
-                        <svg class="bd-placeholder-img" width="200" height="125" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                          <title>Placeholder</title>
-                          <rect width="100%" height="100%" fill="#55595C"/>
-                          <text x="50%" y="50%" fill="#ECEEEF" dy=".3em">Thumbnail</text>
-                        </svg>
+                        <img src="{{city.posts[1].image}}" alt="image of the city" width="200" height="125">
+                      </div>
+                      <div class="col p-4 d-flex flex-column position-static">
+                        <h3 class="mb-0">{{city.posts[1].title}}</h3>
+                        <p class="card-text mb-auto">{{city.posts[1].description}}</p>
                       </div>
                     </div>
                   </div>
