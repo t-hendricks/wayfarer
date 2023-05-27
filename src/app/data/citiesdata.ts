@@ -1,5 +1,16 @@
 import { Posts, posts } from "./postsdata";
 
+function addPosts(cityName: string): any {
+    let cityPosts: Posts[] = [];
+    for (let i = posts.length - 1; i >= 0; i--) {
+        if (posts[i].city === cityName) {
+            cityPosts.push(posts[i]);
+        }
+    }
+
+    return cityPosts;
+}
+
 export interface Cities {
     id: number;
     name: string;
@@ -7,17 +18,6 @@ export interface Cities {
     image: string;
     posts: Posts[];
     heroImage: string[];
-}
-
-function addPosts(cityName: string): any {
-    let cityPosts: Posts[] = [];
-    for(let i = posts.length - 1; i >= 0; i--) {
-        if (posts[i].city === cityName) {
-            cityPosts.push(posts[i]);
-        }
-    }
-
-    return cityPosts;
 }
 
 export const cities: Cities[] = [

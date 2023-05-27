@@ -9,9 +9,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class CitiesContentComponent implements OnInit {
   cities = cities;
-  cityIndex: string | null = '';
   city: any;
-  post: any;
 
   constructor(private route: ActivatedRoute){}
 

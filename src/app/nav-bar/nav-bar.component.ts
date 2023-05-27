@@ -9,11 +9,11 @@ import { Router } from '@angular/router';
 export class NavBarComponent {
   title: string = '';
 
-  constructor(private router: Router) {}
+  constructor(private router: Router) { }
 
-  findTitle(title: string) {
+  searchPost(title: string) {
     this.router.navigate(['/search'], {
-      queryParams: { searchTerm: title}
-    })    
+      queryParams: { searchTerm: title }
+    })
   }
 }

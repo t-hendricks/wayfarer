@@ -10,16 +10,16 @@ import { posts } from 'src/app/data/postsdata';
 export class SearchComponent implements OnInit {
   posts = posts;
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
     this.route.queryParams.subscribe(params => {
       const searchTerm = params['searchTerm'];
-      this.findPost(searchTerm);
+      this.findPostByTitle(searchTerm);
     })
   }
 
-  findPost(searchTerm: string) {
+  findPostByTitle(searchTerm: string) {
     this.posts = posts.filter(post => post.title.toLowerCase().includes(searchTerm.toLowerCase()));
   }
 }
