@@ -8,13 +8,15 @@ import { CitiesContentComponent } from './cities-content/cities-content.componen
 import { LandingpageModule } from './landingpage/landingpage.module';
 import { PostComponent } from './post/post.component';
 import { NavBarModule } from './nav-bar/nav-bar.module';
+import { FooterComponent } from './landingpage/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CitiesNavComponent,
     CitiesContentComponent,
-    PostComponent
+    PostComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
