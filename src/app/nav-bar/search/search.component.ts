@@ -1,33 +1,25 @@
-import { Component } from '@angular/core';
-import { cities } from '../../data/citiesdata';
-import { posts, Posts } from '../../data/postsdata';
-import { ActivatedRoute, Route } from '@angular/router';
-import { NavBarComponent } from '../nav-bar.component';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { posts } from 'src/app/data/postsdata';
 
 @Component({
   selector: 'app-search',
   templateUrl: './search.component.html',
   styleUrls: ['./search.component.css']
 })
-export class SearchComponent {
-  cities = cities;
-  title: string = '';
-  posts: Posts[] = [];
-  post: Posts | undefined;
+export class SearchComponent implements OnInit {
+  posts = posts;
 
   constructor(private route: ActivatedRoute) {}
 
+  ngOnInit() {
+    this.route.queryParams.subscribe(params => {
+      const searchTerm = params['searchTerm'];
+      this.findPost(searchTerm);
+    })
+  }
 
-  findTitle(title: string) {
-    console.log("HERE IS THE DANG TITLE: " + title);
-    this.route.paramMap.subscribe(params => {
-      const paramPostId: string = params.get('postId') || '';
-      this.posts = cities.flatMap(city => city.posts);
-      this.post = this.posts.find(post => post.id === parseInt(paramPostId));
-      let filterPosts = posts.filter(post => post.title.toLowerCase().includes(this.title));
-      console.log(filterPosts);
-      
-      
-    });
+  findPost(searchTerm: string) {
+    this.posts = posts.filter(post => post.title.toLowerCase().includes(searchTerm.toLowerCase()));
   }
 }

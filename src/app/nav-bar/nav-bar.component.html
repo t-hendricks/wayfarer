@@ -20,7 +20,7 @@
       </ul>
       <form class="d-flex" role="search">
         <input [(ngModel)]="title" name="title" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <a routerLink="/search"><button (click)="findTitle(title)" class="btn btn-outline-success" type="submit">Search</button></a>
+        <button (click)="findTitle(title)" class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
   </div>
