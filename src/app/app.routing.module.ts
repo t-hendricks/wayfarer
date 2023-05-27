@@ -3,11 +3,16 @@ import { RouterModule, Routes } from '@angular/router';
 import { LandingpageComponent } from './landingpage/landingpage.component';
 import { CitiesContentComponent } from './cities-content/cities-content.component';
 import { PostComponent } from './post/post.component';
+import { SearchComponent } from './nav-bar/search/search.component';
 
 const routes: Routes = [
     {
         path: '',
         component: LandingpageComponent
+    },
+    {
+        path: 'search',
+        component: SearchComponent
     },
     {
         path: 'cities/:id',
