@@ -32,4 +32,13 @@ export class PostComponent implements OnInit {
     }
     return true;
   }
+
+  validatePostContent(postContent: string): boolean {
+    for (let post of this.posts) {
+      if (post.content.length === 0) {
+        return false;
+      }
+    }
+    return true;
+  }
 }

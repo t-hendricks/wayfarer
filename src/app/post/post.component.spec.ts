@@ -30,4 +30,13 @@ describe('PostComponent', () => {
       }
     })
   });
+
+  describe('content', () => {
+    it('should not be empty', () => {
+      for (let post of posts) {
+        let validContent = component.validatePostContent(post.content);
+        expect(validContent).toBeTrue();
+      }
+    })
+  });
 });
