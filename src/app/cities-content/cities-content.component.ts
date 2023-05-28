@@ -8,10 +8,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./cities-content.component.css']
 })
 export class CitiesContentComponent implements OnInit {
-  cities = cities;
-  cityIndex: string | null = '';
   city: any;
-  post: any;
 
   constructor(private route: ActivatedRoute){}
 

@@ -28,23 +28,20 @@
         <app-cities-nav></app-cities-nav>
 
       </div>
-      <div class="col-8">
+      <div class="col-8" style="padding-top: 2rem;">
           
-          <div class="container-md">
-              <div class="d-flex">
-                <div class="p-2 w-100">
-                  <h1 style="text-align: center;">{{city.name}}</h1>
-                  <h4 style="text-align: center;">{{city.country}}</h4>
-                </div>
-                <div class="p-2 w-100">
-                  <img src="{{city.image}}" alt="image of the city" width="100%">
-                </div>
+  
+
+            <div class="container-md city-container" [style.background-image]="'url(' + city.image + ')'">
+              <div class="city-details">
+                <h1>{{ city.name }}</h1>
+                <h4>{{ city.country }}</h4>
               </div>
             </div>
             
             <figure>
               <blockquote class="blockquote">
-                <p>Posts</p>
+                <h3 style="padding-top:2rem;">Posts</h3>
               </blockquote>
             </figure>            
 
@@ -58,7 +55,7 @@
                       </div>
                       <div class="col p-4 d-flex flex-column position-static">
                         <a routerLink="/cities/{{city.id}}/{{post.id}}">
-                          <h3 class="mb-0">{{post.title}}</h3>
+                          <h4 class="mb-0">{{post.title}}</h4>
                         </a>
                         <p class="card-text mb-auto">{{post.description}}</p>
                       </div>
@@ -69,4 +66,5 @@
 
       </div>
   </div>
+  
 </div>

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { cities } from '../data/citiesdata';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-nav-bar',
@@ -7,5 +7,13 @@ import { cities } from '../data/citiesdata';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent {
-  cities = cities;
+  title: string = '';
+
+  constructor(private router: Router) {}
+
+  searchTitle(title: string) {
+    this.router.navigate(['/search'], {
+      queryParams: { searchTerm: title}
+    })    
+  }
 }

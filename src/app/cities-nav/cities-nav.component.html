@@ -1,13 +1,15 @@
-<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+<div style="padding-bottom: 2rem"></div>
+<div class="nav flex-column text-start nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
   <figure>
     <blockquote class="blockquote">
-      <p>Cities</p>
+      <h3>Cities</h3>
     </blockquote>
   </figure> 
   <nav *ngFor="let city of cities">
     <a routerLink="/cities/{{city.id}}" routerLinkActive="active" class="nav-link" data-toggle="pill" role="tab">
-      <img src="{{city.image}}" alt="image of the city" width="200" height="125">
+      <img src="{{city.image}}" alt="image of the city" width="100"  style="border-radius: 30%; padding-right: 1rem; padding-left: 1rem;">
       {{city.name}}
     </a>
   </nav>
 </div>
+

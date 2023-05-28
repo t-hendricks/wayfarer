@@ -6,12 +6,14 @@ import { LandingpageComponent } from './landingpage.component';
 import { CitySquareComponent } from './city-square/city-square.component';
 import { AppRoutingModule } from '../app.routing.module';
 
+
 @NgModule({
   declarations: [
     HeroComponent,
     TopicComponent,
     LandingpageComponent,
-    CitySquareComponent
+    CitySquareComponent,
+
   ],
   imports: [
     CommonModule,
