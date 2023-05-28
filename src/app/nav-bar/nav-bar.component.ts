@@ -11,7 +11,7 @@ export class NavBarComponent {
 
   constructor(private router: Router) {}
 
-  findTitle(title: string) {
+  searchTitle(title: string) {
     this.router.navigate(['/search'], {
       queryParams: { searchTerm: title}
     })    

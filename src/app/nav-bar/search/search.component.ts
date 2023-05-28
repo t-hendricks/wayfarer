@@ -15,11 +15,11 @@ export class SearchComponent implements OnInit {
   ngOnInit() {
     this.route.queryParams.subscribe(params => {
       const searchTerm = params['searchTerm'];
-      this.findPost(searchTerm);
+      this.findPostByTitle(searchTerm);
     })
   }
 
-  findPost(searchTerm: string) {
+  findPostByTitle(searchTerm: string) {
     this.posts = posts.filter(post => post.title.toLowerCase().includes(searchTerm.toLowerCase()));
   }
 }

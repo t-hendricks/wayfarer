@@ -1,18 +1,19 @@
 <div class="container-lg" *ngFor="let post of posts">
-    <div class="container-lg">
-      <div class="row mb-2">
-        <div class="col-md-12">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col-auto d-none d-lg-block">
-              <img src="{{post.image}}" alt="image of the city" width="200" height="125">
-            </div>
-            <div class="col p-4 d-flex flex-column position-static">
-              <a routerLink="/cities/{{post.id}}/{{post.id}}">
-                <h3 class="mb-0">{{post.title}}</h3>
-              </a>
-              <p class="card-text mb-auto">{{post.description}}</p>
-            </div>
+  <div class="container-lg">
+    <div class="row mb-2">
+      <div class="col-md-12">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col-auto d-none d-lg-block">
+            <img src="{{post.image}}" alt="image of the city" width="200" height="125">
+          </div>
+          <div class="col p-4 d-flex flex-column position-static">
+            <a routerLink="/cities/{{post.id}}/{{post.id}}">
+              <h3 class="mb-0">{{post.title}}</h3>
+            </a>
+            <p class="card-text mb-auto">{{post.description}}</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</div>

@@ -11,7 +11,7 @@ export interface Cities {
 
 function addPosts(cityName: string): any {
     let cityPosts: Posts[] = [];
-    for(let i = posts.length - 1; i >= 0; i--) {
+    for (let i = posts.length - 1; i >= 0; i--) {
         if (posts[i].city === cityName) {
             cityPosts.push(posts[i]);
         }
