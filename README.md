@@ -26,7 +26,7 @@ to allow us to full fill a clients requirements for this project.
 
 ### Progress Snapshot 1
 
-![Kanban Board 1](./src/app/assets/kanban-start.png)<br><br>
+![Kanban Board 1](../assets/kanban-start.png)<br><br>
 
 ### Progress Snapshot 2
 
