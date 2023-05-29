@@ -119,23 +119,21 @@ to allow us to full fill a clients requirements for this project.
 Through collaboration, we reached a consensus on the following list, which we proudly consider to be our wins for this
 project.
 
-- We each acquired valuable experience and knowledge while conducting pair programming.
-- We recognize the importance of efficient time management when collaborating with a team.
-- We developed the ability to effectively prioritize user stories, enabling us to successfully reach the Minimum Viable
-  Product (MVP).
-- We are proud of the significant progress we made within the set timeframe we had.
+- We all believe that one of our wins were how we were able to accomplish all 4 sprints.
+- That we have a professionally look and functioning project.
+- We have live dynamic content.
+- It was the first time Trevor and Kim worked with Bootstrap and Pam's first time working with Bootstrap in an Angular development.  
+
 
 #### <ins>Hurdles</ins>
 
 As a team, we encountered the following list of hurdles during this project.
 
-- <b>Working as a team with varying levels of experience:</b> We faced the challenge of leveraging each team member's
-  strengths and effectively assigning tasks accordingly.
+- Setting up Bootstrap to work with Angular.
 
-- <b>Testing controllers without authentication:</b> One of our obstacles was finding a way to test the
-  controllers without the need for authentication.
+- Angular's learning curve.
 
-- <b>Project management using Git:</b> We encountered difficulties in managing the project collaboratively using Git.
+- Understanding Modularity
   <br>
 
 ***
