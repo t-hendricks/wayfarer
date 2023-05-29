@@ -142,28 +142,23 @@ As a team, we encountered the following list of hurdles during this project.
 
 ## Technologies & Tools
 
-- Java
-- Spring Boot
-- JWT
-- Postman
 - GitHub Project
-- Draw.io
-- H2 Database
-- JUnit
-- Mockito
+- Angular
+- Bootstrap
+- Popper
 
 ***
 
 ## Credits
 
-- We utilized this [tool](https://app.diagrams.net/) for creating ERD
-diagrams - [Google Diagrams](https://app.diagrams.net/)<br>
-- We were inspired by [Spotify](http://spotify.com) for our app.
+### Artwork
 
-### Jeff
-- A huge thanks to [Suresh](https://github.com/sureshmelvinsigera), [Dhrubo](https://www.linkedin.com/in/dhrubo-hasan/) and [Leo](https://www.linkedin.com/in/leonardo-rodriguez/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BiDOQ1nARTqWp8%2BgRo7bF6Q%3D%3D) who shared their feedback and suggestion at the beginning of the project
-- Shout-out to my teammates for their patience, kindness, and hard work during the development of the project
+- We utilized these photostock artwork providers for our site images [Pexels](https://pexels.com) and [Pixabay](https://pixabay.com)<br>
+- We utilized this free flaticon source for artwork [Flaticon](http://flaticon.com).
+- We used this source to create our logo [Canva](http://canva.com).
 
-### Pam
-- I would like to thank Jeff for taking charge on this project with his stellar ability of planning and management.  
-- I would like to thank both team members for their patience and help, it was a true pleasure working with both of you
+### Articles 
+- [Last colony of Europe](https://www.exteriores.gob.es/en/PoliticaExterior/Paginas/Gibraltar.aspx)
+- [History of Gibraltar](https://www.historic-uk.com/HistoryMagazine/DestinationsUK/History-of-Gibraltar/)
+- [San Francisco Articles](https://www.travelchannel.com/destinations/us/ca/san-francisco/articles)
+- [London Articles](http://lonelyplanet.com/)
