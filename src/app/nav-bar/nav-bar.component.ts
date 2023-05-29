@@ -9,10 +9,17 @@ import { cities } from '../data/citiesdata';
 })
 export class NavBarComponent {
   title: string = '';
-  cities = cities;
+  cities = cities; // used for structural directive
 
   constructor(private router: Router) {}
 
+  /**
+   * Takes in a title string to pass in a query parameter with 
+   * queryParams, which navigates to the '/search' route imperatively 
+   * using Router.navigate.
+   * 
+   * @param title {string}
+   */
   searchTitle(title: string) {
     this.router.navigate(['/search'], {
       queryParams: { searchTerm: title}
