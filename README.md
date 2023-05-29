@@ -1,6 +1,6 @@
-# Audio Galaxy Streaming API
+# Wayfarer - Your Choice of Travel Partners
 
-A Streaming Music App That Is Out of This World!
+Wayfarer - Your Choice of Travel Partners
 
 ## Tables of Contents
 
