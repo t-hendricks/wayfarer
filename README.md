@@ -36,7 +36,6 @@ client's requirements by implementing user stories and wireframes which were pro
 [View Planning Kanban Board](https://github.com/users/t-hendricks/projects/6)
 
 ***
-
 ## User Stories
 
 #### <ins>Sprint 1</ins>
