@@ -5,6 +5,7 @@ import { CitiesContentComponent } from './cities-content/cities-content.componen
 import { PostComponent } from './post/post.component';
 import { SearchComponent } from './nav-bar/search/search.component';
 import { LocationStrategy, PathLocationStrategy } from '@angular/common';
+import { WildcardComponent } from './wildcard/wildcard.component';
 
 const routes: Routes = [
     {
@@ -28,7 +29,12 @@ const routes: Routes = [
                 component: PostComponent
             }
         ]
-    }
+    },
+    {
+        path: '**',
+        component: WildcardComponent,
+        // redirectTo: ''
+    },
 ];
 
 @NgModule({
