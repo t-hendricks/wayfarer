@@ -104,12 +104,11 @@ to allow us to full fill a clients requirements for this project.
 
 ## Favorite Parts
 
-<ins><b>Jeff's</b></ins> favorite part was reaching the MVP milestone and successfully completing the project.<br>
+<ins><b>Trevor's</b></ins> Waiting for details<br>
 
-<ins><b>Wanda's</b></ins> favorite part was overcoming testing challenges and seeing the tests pass upon completion.<br>
+<ins><b>Kims's</b></ins> Waiting for details.<br>
 
-<ins><b>Pam's</b></ins> favorite part was being a part of this team, as it provided her with valuable learning
-opportunities.<br>
+<ins><b>Pam's</b></ins> Our team effort and how well we all worked together was my favorite part.<br>
 
 ***
 
