@@ -4,6 +4,7 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
 import { CitiesContentComponent } from './cities-content/cities-content.component';
 import { PostComponent } from './post/post.component';
 import { SearchComponent } from './nav-bar/search/search.component';
+import { LocationStrategy, PathLocationStrategy } from '@angular/common';
 
 const routes: Routes = [
     {
@@ -31,8 +32,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {useHash: true})],
-  exports: [RouterModule]
+    imports: [RouterModule.forRoot(routes)],
+    exports: [RouterModule],
+    providers: [{ provide: LocationStrategy, useClass: PathLocationStrategy }]
 })
 
 export class AppRoutingModule { }
