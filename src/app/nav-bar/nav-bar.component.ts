@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { cities } from '../data/citiesdata';
 
 @Component({
   selector: 'app-nav-bar',
@@ -8,6 +9,7 @@ import { Router } from '@angular/router';
 })
 export class NavBarComponent {
   title: string = '';
+  cities = cities;
 
   constructor(private router: Router) {}
 
