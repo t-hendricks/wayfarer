@@ -1,10 +1,6 @@
 # Wayfarer - Your Choice of Travel Partners
 
-<<<<<<< HEAD
-Wayfarer - Your Choice of Travel Partners
-=======
 Worry Free Travel
->>>>>>> 7e11ce437421cc7f94eb77f6b1154e67fd8e0532
 
 ## Tables of Contents
 
