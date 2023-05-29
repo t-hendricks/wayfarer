@@ -1,6 +1,6 @@
 # Wayfarer - Your Choice of Travel Partners
 
-Wayfarer - Your Choice of Travel Partners
+Worry Free Travel
 
 ## Tables of Contents
 
