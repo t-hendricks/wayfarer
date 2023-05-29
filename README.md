@@ -120,7 +120,7 @@ Through collaboration, we reached a consensus on the following list, which we pr
 project.
 
 - We all believe that one of our wins were how we were able to accomplish all 4 sprints.
-- That we have a professionally look and functioning project.
+- That we have a professionally looking and functioning project.
 - We have live dynamic content.
 - It was the first time Trevor and Kim worked with Bootstrap and Pam's first time working with Bootstrap in an Angular development.  
 
