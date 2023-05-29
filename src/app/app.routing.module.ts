@@ -33,7 +33,6 @@ const routes: Routes = [
     {
         path: '**',
         component: WildcardComponent,
-        // redirectTo: ''
     },
 ];
 
