@@ -38,6 +38,13 @@
                 <h4>{{ city.country }}</h4>
               </div>
             </div>
+
+            <br>
+
+            <div *ngIf="cityWeather">
+              <h3>{{ cityWeather.weather[0].main }} ({{ cityWeather.weather[0].description }})</h3>
+              <p>Currently {{ cityWeather.main.temp }} °F | Feels Like {{ cityWeather.main.feels_like }} °F</p>
+            </div>
             
             <figure>
               <blockquote class="blockquote">
@@ -63,8 +70,6 @@
                   </div>
                 </div>
               </div>
-
       </div>
   </div>
-  
 </div>
