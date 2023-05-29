@@ -30,7 +30,7 @@ to allow us to full fill a clients requirements for this project.
 
 ### Progress Snapshot 2
 
-![Kanban Board 2](./src/app/assets/status-start.png)<br><br>
+![Kanban Board 2](./src/assets/status-start.png)<br><br>
 
 
 [View Planning Kanban Board](https://github.com/users/t-hendricks/projects/6)
