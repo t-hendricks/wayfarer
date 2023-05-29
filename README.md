@@ -1,6 +1,10 @@
-# Audio Galaxy Streaming API
+# Wayfarer - Your Choice of Travel Partners
 
+<<<<<<< HEAD
 Wayfarer - Your Choice of Travel Partners
+=======
+Worry Free Travel
+>>>>>>> 7e11ce437421cc7f94eb77f6b1154e67fd8e0532
 
 ## Tables of Contents
 
@@ -71,36 +75,44 @@ client's requirements by implementing user stories and wireframes which were pro
 - As a user, I should be able to call open Weather API for each city to diplay the current weather on each cities page.
 
 ***
-
 ## MVP ( - ✓ - Completed / - ✗ - Not Completed)
 
-1. Should consist of 3 models. - ✓
-2. The environment settings should be using Spring Profiles. - ✓
-3. Use a combination of Spring Security and JWT Tokens. - ✓
-4. The routes should be protected by JWT except for login/register. - ✓
-5. A minimum of 1 REST API point that is fully CRUD operable. - ✓
-6. API endpoints must be able to perform CRUD based on business use-case. - ✓
-7. Provide CRUD routes that were built based on rest conventions to be a part of the API. - ✓
-8. Have graceful exception handling in place. - ✓
-9. In the event that an exception occurs, you should send error message to user. - ✓
-10. Code on different branches during development. - ✓
+1. Should be developed with Angular. - ✓
+2. Should consist of 4 completed sprints. - ✓
+3. Should have a navigation bar that appears on every page. - ✓
+4. Should consist of 3 cities. - ✓
+5. Should have posts for each city. - ✓
+6. Each post should not be emtpy. - ✓
+7. Should include a search feature. - ✓
+8. Should include a weather api. - ✓
+9. Should consist of styling. - ✓
+10. To organize team we should use git project. - ✓
 11. Utilize KISS & DRY Principals. - ✓
-12. Write code that is test driven with TDD Approach. - ✓
-13. Unit test the controller & service classes with MockMVC. - ✓
-14. Write Doc Strings for each method. - ✓
-15. Provide REST Endpoints. - ✓
+12. Utlize git branches. - ✓
+13. Write Doc Strings for each method. - ✓
+
+## Silver MVP ( - ✓ - Completed / - ✗ - Not Completed)
+
+1. Implement additional Bootstrap features. - ✓
+2. Create visual image sliders for cities. - ✓
+3. Add in more cities and posts for those cities. - ✗
+4. Have hover effects. - ✗
+5. Implement a rotating quote bar. - ✗
+6. Implement a "No Search" results page. - ✗
+7. Add timed hero sliders. - ✗
+8. Design a logo - ✓
+
 
 
 ***
 
 ## Favorite Parts
 
-<ins><b>Jeff's</b></ins> favorite part was reaching the MVP milestone and successfully completing the project.<br>
+<ins><b>Trevor's</b></ins> Waiting for details<br>
 
-<ins><b>Wanda's</b></ins> favorite part was overcoming testing challenges and seeing the tests pass upon completion.<br>
+<ins><b>Kims's</b></ins> Waiting for details.<br>
 
-<ins><b>Pam's</b></ins> favorite part was being a part of this team, as it provided her with valuable learning
-opportunities.<br>
+<ins><b>Pam's</b></ins> Our team effort and how well we all worked together was my favorite part.<br>
 
 ***
 
@@ -111,51 +123,44 @@ opportunities.<br>
 Through collaboration, we reached a consensus on the following list, which we proudly consider to be our wins for this
 project.
 
-- We each acquired valuable experience and knowledge while conducting pair programming.
-- We recognize the importance of efficient time management when collaborating with a team.
-- We developed the ability to effectively prioritize user stories, enabling us to successfully reach the Minimum Viable
-  Product (MVP).
-- We are proud of the significant progress we made within the set timeframe we had.
+- We all believe that one of our wins were how we were able to accomplish all 4 sprints.
+- That we have a professionally looking and functioning project.
+- We have live dynamic content.
+- It was the first time Trevor and Kim worked with Bootstrap and Pam's first time working with Bootstrap in an Angular development.  
+
 
 #### <ins>Hurdles</ins>
 
 As a team, we encountered the following list of hurdles during this project.
 
-- <b>Working as a team with varying levels of experience:</b> We faced the challenge of leveraging each team member's
-  strengths and effectively assigning tasks accordingly.
+- Setting up Bootstrap to work with Angular.
 
-- <b>Testing controllers without authentication:</b> One of our obstacles was finding a way to test the
-  controllers without the need for authentication.
+- Angular's learning curve.
 
-- <b>Project management using Git:</b> We encountered difficulties in managing the project collaboratively using Git.
+- Understanding Modularity
   <br>
 
 ***
 
 ## Technologies & Tools
 
-- Java
-- Spring Boot
-- JWT
-- Postman
 - GitHub Project
-- Draw.io
-- H2 Database
-- JUnit
-- Mockito
+- Angular
+- Bootstrap
+- Popper
 
 ***
 
 ## Credits
 
-- We utilized this [tool](https://app.diagrams.net/) for creating ERD
-diagrams - [Google Diagrams](https://app.diagrams.net/)<br>
-- We were inspired by [Spotify](http://spotify.com) for our app.
+### Artwork
 
-### Jeff
-- A huge thanks to [Suresh](https://github.com/sureshmelvinsigera), [Dhrubo](https://www.linkedin.com/in/dhrubo-hasan/) and [Leo](https://www.linkedin.com/in/leonardo-rodriguez/?lipi=urn%3Ali%3Apage%3Ad_flagship3_people_connections%3BiDOQ1nARTqWp8%2BgRo7bF6Q%3D%3D) who shared their feedback and suggestion at the beginning of the project
-- Shout-out to my teammates for their patience, kindness, and hard work during the development of the project
+- We utilized these photostock artwork providers for our site images [Pexels](https://pexels.com) and [Pixabay](https://pixabay.com)<br>
+- We utilized this free flaticon source for artwork [Flaticon](http://flaticon.com).
+- We used this source to create our logo [Canva](http://canva.com).
 
-### Pam
-- I would like to thank Jeff for taking charge on this project with his stellar ability of planning and management.  
-- I would like to thank both team members for their patience and help, it was a true pleasure working with both of you
+### Articles 
+- [Last colony of Europe](https://www.exteriores.gob.es/en/PoliticaExterior/Paginas/Gibraltar.aspx)
+- [History of Gibraltar](https://www.historic-uk.com/HistoryMagazine/DestinationsUK/History-of-Gibraltar/)
+- [San Francisco Articles](https://www.travelchannel.com/destinations/us/ca/san-francisco/articles)
+- [London Articles](http://lonelyplanet.com/)
