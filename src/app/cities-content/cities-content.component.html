@@ -38,7 +38,17 @@
                 <h4>{{ city.country }}</h4>
               </div>
             </div>
-            
+
+            <div *ngIf="cityWeather">
+              <br>
+              <h4>Weather in {{ city.name }}</h4>
+              <h5>{{ cityWeather.weather[0].main }} - {{ cityWeather.weather[0].description }}</h5>
+              <p>Temperature: {{ cityWeather.main.temp }} °F</p>
+              <p>Feels Like: {{ cityWeather.main.feels_like }} °F</p>
+              <p>Max Temperature: {{ cityWeather.main.temp_max }} °F</p>
+              <p>Min Temperature: {{ cityWeather.main.temp_min }} °F</p>
+            </div>
+
             <figure>
               <blockquote class="blockquote">
                 <h3 style="padding-top:2rem;">Posts</h3>
