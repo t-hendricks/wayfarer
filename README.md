@@ -19,18 +19,18 @@ A Streaming Music App That Is Out of This World!
 
 This was a group project which consisted of 3 group
 members [Kim Nguyen](https://www.linkedin.com/in/knnguyen2410/), [Trevor Hendricks](https://www.linkedin.com/in/t-hendricks/) & [Pamela Afaneh](https://www.linkedin.com/in/pam-afaneh/).
-The goal of the project was to create a travel community site, built in Angular and connected to a weather API service.  The user stories and wireframes were provided, which was 
-to allow us to full fill a clients requirements for this project.
+The objective of the project was to develop a travel community website using the Angular framework and integrating it with a weather API service. The project consisted of fulfilling the 
+client's requirements by implementing user stories and wireframes which were provided.
 
 ## Project Planning
 
 ### Progress Snapshot 1
 
-![Kanban Board 1](./src/app/assets/kanban-start.png)<br><br>
+![Kanban Board 1](./src/assets/kanban-start.png)<br><br>
 
 ### Progress Snapshot 2
 
-![Kanban Board 2](./src/app/assets/status-start.png)<br><br>
+![Kanban Board 2](./src/assets/status-start.png)<br><br>
 
 
 [View Planning Kanban Board](https://github.com/users/t-hendricks/projects/6)
@@ -39,30 +39,37 @@ to allow us to full fill a clients requirements for this project.
 
 ## User Stories
 
-#### <ins>Unauthenticated User</ins>
+#### <ins>Sprint 1</ins>
 
-- As a user, I'm able to create an account and access public resources so I'm able to log in<br>
-- As a user, I'm able to log in to my account so I can access authenticated resources.
+- As a user, I should be able to navigate to "/" to see a basic splash page with the name of the website<br>
+- As a user, I shoyuld be able to see the site-wide header on every page with a link to the home page and list of cities.
 
-#### <ins>Authenticated User</ins>
+#### <ins>Sprint 2</ins>
 
-#### User
+- As a user, I should be able to view the "San Francisco" page (at "/cities/1") including<br>
+  <ul>
+  <li>A site-wide header</li>
+  <li>The name of the city</li>
+  <li>An iconic photo of the city</li>
+  </ul>
+- As a user, I should be able to view a list of posts on the San Francisco page.</br>
+  <ul>
+  <li>Sorted by newest first</li>
+  <li>WIth the post titles linked to the individual post "show" pages</li>
+  </ul>
+- As a user, I should be able to use the search bar to search through the posts title and /or content.</br>
+- As a user, I should be able to click on the title of one of their posts and be redirected to a "show" page for that post.</br>
+- As a user, I should be able to view posts "show" pages with title, author, and content.</br>
 
-- As a user, I'm able to update my profile such as username so I can correct any typo in the username
-- As a user, I'm able to delete my account so I can remove my information from the system.
+#### <ins>Sprint 3</ins>
 
-#### Playlist
+- As a user, I should be able to view city pages for "London" and "Gibraltar".
+- As a user, A post's title must be between 1 and 200 characters.
+- As a user, A post's content must not be empty.
 
-- As a user, I'm able to get a list of playlists from my library so I can listen to a specific playlist
-- As a user, I'm able to create a playlist, so I can organize my songs and find them easily
-- As a user, I'm able to update my playlist to give it another name or description.
-- As a user, I'm able to delete a playlist to remove it.
+#### <ins>Sprint 4</ins>
 
-#### Song
-
-- As a user, I'm able to add songs to playlists
-- As a user, I'm able to delete songs from a specific playlist.
-- As a user, I'm able to get a list of songs, so I can see the top 10 songs.
+- As a user, I should be able to call open Weather API for each city to diplay the current weather on each cities page.
 
 ***
 
