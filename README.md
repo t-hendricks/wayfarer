@@ -1,28 +1,41 @@
-# Wayfarer
+# Audio Galaxy Streaming API
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+A Streaming Music App That Is Out of This World!
 
-## Development server
+## Tables of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Project Overview](#project-overview)
+- [Project Planning](#project-planning)
+- [User Stories](#user-stories)
+- [MVP](#mvp-------completed-------not-completed)
+- [Favorite Parts](#favorite-parts)
+- [Wins & Hurdles](#wins--hurdles)
+- [Technologies & Tools](#technologies--tools)
+- [Credits](#credits)
 
-## Code scaffolding
+***
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Project Overview
 
-## Build
+This was a group project which consisted of 3 group
+members [Kim Nguyen](https://www.linkedin.com/in/knnguyen2410/), [Trevor Hendricks](https://www.linkedin.com/in/t-hendricks/) & [Pamela Afaneh](https://www.linkedin.com/in/pam-afaneh/).
+The goal of the project was to create a travel community site, built in Angular and connected to a weather API service.  The user stories and wireframes were provided, which was 
+to allow us to full fill a clients requirements for this project.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Project Planning
 
-## Running unit tests
+### Progress Snapshot 1
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Kanban Board 1](./src/app/assets/kanban-start.png)<br><br>
 
-## Running end-to-end tests
+### Progress Snapshot 2
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![Kanban Board 2](./src/app/assets/status-start.png)<br><br>
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# wayfarer
+[View Planning Kanban Board](https://github.com/users/t-hendricks/projects/6)
+
+***
+
+## User Stories
+
