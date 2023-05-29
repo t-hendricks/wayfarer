@@ -106,7 +106,7 @@ client's requirements by implementing user stories and wireframes which were pro
 
 <ins><b>Trevor's</b></ins> Figuring how to implement and utilize Boostrap together.<br>
 
-<ins><b>Kims's</b></ins> Waiting for details.<br>
+<ins><b>Kims's</b></ins> The iterative development process that we took as a team to ensure our application was modular.<br>
 
 <ins><b>Pam's</b></ins> Our team effort and how well we all worked together was my favorite part.<br>
 
