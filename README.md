@@ -104,7 +104,7 @@ client's requirements by implementing user stories and wireframes which were pro
 
 ## Favorite Parts
 
-<ins><b>Trevor's</b></ins> Waiting for details<br>
+<ins><b>Trevor's</b></ins> Figuring how to implement and utilize Boostrap together.<br>
 
 <ins><b>Kims's</b></ins> Waiting for details.<br>
 
