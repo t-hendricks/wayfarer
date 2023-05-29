@@ -71,24 +71,33 @@ to allow us to full fill a clients requirements for this project.
 - As a user, I should be able to call open Weather API for each city to diplay the current weather on each cities page.
 
 ***
-
 ## MVP ( - ✓ - Completed / - ✗ - Not Completed)
 
-1. Should consist of 3 models. - ✓
-2. The environment settings should be using Spring Profiles. - ✓
-3. Use a combination of Spring Security and JWT Tokens. - ✓
-4. The routes should be protected by JWT except for login/register. - ✓
-5. A minimum of 1 REST API point that is fully CRUD operable. - ✓
-6. API endpoints must be able to perform CRUD based on business use-case. - ✓
-7. Provide CRUD routes that were built based on rest conventions to be a part of the API. - ✓
-8. Have graceful exception handling in place. - ✓
-9. In the event that an exception occurs, you should send error message to user. - ✓
-10. Code on different branches during development. - ✓
+1. Should be developed with Angular. - ✓
+2. Should consist of 4 completed sprints. - ✓
+3. Should have a navigation bar that appears on every page. - ✓
+4. Should consist of 3 cities. - ✓
+5. Should have posts for each city. - ✓
+6. Each post should not be emtpy. - ✓
+7. Should include a search feature. - ✓
+8. Should include a weather api. - ✓
+9. Should consist of styling. - ✓
+10. To organize team we should use git project. - ✓
 11. Utilize KISS & DRY Principals. - ✓
-12. Write code that is test driven with TDD Approach. - ✓
-13. Unit test the controller & service classes with MockMVC. - ✓
-14. Write Doc Strings for each method. - ✓
-15. Provide REST Endpoints. - ✓
+12. Utlize git branches. - ✓
+13. Write Doc Strings for each method. - ✓
+
+## Silver MVP ( - ✓ - Completed / - ✗ - Not Completed)
+
+1. Implement additional Bootstrap features. - ✓
+2. Create visual image sliders for cities. - ✓
+3. Add in more cities and posts for those cities. - ✗
+4. Have hover effects. - ✗
+5. Implement a rotating quote bar. - ✗
+6. Implement a "No Search" results page. - ✗
+7. Add timed hero sliders. - ✗
+8. Design a logo - ✓
+
 
 
 ***
