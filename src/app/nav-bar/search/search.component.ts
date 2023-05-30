@@ -13,7 +13,7 @@ export class SearchComponent implements OnInit {
   constructor(private route: ActivatedRoute) {}
 
   /**
-   * Grabs the value from the observable 'searchTerm' query parameter inside the url, 
+   * The ngOnInit method grabs the value from the observable 'searchTerm' query parameter inside the url, 
    * then invokes findPostByTitle() function.
    */
   ngOnInit(): void {
@@ -24,7 +24,7 @@ export class SearchComponent implements OnInit {
   }
 
   /**
-   * Takes in a string and filters though an array of 'posts' from the data folder.
+   * The findPostByTitle takes in a string and filters though an array of 'posts' from the data folder.
    * 
    * @param searchTerm {string} is the string to search for in all posts' titles.
    */
