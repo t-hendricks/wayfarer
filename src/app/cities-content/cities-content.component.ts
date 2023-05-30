@@ -39,7 +39,7 @@ export class CitiesContentComponent implements OnInit {
     this.http
       .get(`https://api.openweathermap.org/data/2.5/weather?q=${name}&appid=052f26926ae9784c2d677ca7bc5dec98&units=imperial`)
       .subscribe((response) => {
-        console.log(response);
+        console.log(response); // console log the JSON object to show method chaining process
         this.cityWeather = response
       });
   }
