@@ -17,11 +17,11 @@ export class NavBarComponent {
    * The searchTitle method takes in a title string to pass in a query parameter with 
    * queryParams, which navigates to the '/search' route imperatively using Router.navigate.
    * 
-   * @param title {string} is the string to search for in all posts' titles.
+   * @param title {string} is the string the user enters.
    */
-  searchTitle(title: string) {
+  searchTitle(title: string): void {
     this.router.navigate(['/search'], {
-      queryParams: { searchTerm: title}
+      queryParams: { searchTerm: title }
     })    
   }
 }
