@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+
 import { cities } from '../data/citiesdata';
 import { posts, Posts } from '../data/postsdata';
-import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-post',
