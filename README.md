@@ -160,3 +160,10 @@ As a team, we encountered the following list of hurdles during this project.
 - [History of Gibraltar](https://www.historic-uk.com/HistoryMagazine/DestinationsUK/History-of-Gibraltar/)
 - [San Francisco Articles](https://www.travelchannel.com/destinations/us/ca/san-francisco/articles)
 - [London Articles](http://lonelyplanet.com/)
+
+### Colleagues
+- Leonardo Rodriguez
+- [Jeff Ou](https://github.com/pophero110)
+- [Kevin Barrios](https://github.com/dayjyun)
+- [Maksym Zinchenko](https://github.com/maklaut007)
+- [Jay Padilla](https://github.com/Jaypad07)
