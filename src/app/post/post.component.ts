@@ -18,7 +18,7 @@ export class PostComponent implements OnInit {
   constructor(private route: ActivatedRoute){}
 
   /**
-   * The ngOnInit method initialized the post component and grabs the post route's parameter in the URL.
+   * The ngOnInit method initializes the post component and grabs the post route's parameter in the URL.
    * The postId parameter that is grabbed is used to find the corresponding post from the postsdata.ts file through the post's id.
    */
   ngOnInit(): void {
