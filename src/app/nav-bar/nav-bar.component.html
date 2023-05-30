@@ -1,15 +1,19 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
+
+    <!-- Wayfarer logo, clickable to route to homepage -->
     <a routerLink="/"><img style="padding-right: 5px" src="../../assets/wayfarer-logo.png" alt="Wayfarer logo"></a>
+
+    <!-- Toggler button from bootstrap to create hamburger menu -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Cities dropdown menu -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      
         <li class="nav-item dropdown">
-        
           <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Cities
           </a>
@@ -18,12 +22,14 @@
           </ul>
         </li>
         
+      <!-- Search bar -->
       </ul>
       <form class="d-flex" role="search">
         <input [(ngModel)]="title" name="title" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button (click)="searchTitle(title)" class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
+
   </div>
 </nav>
 

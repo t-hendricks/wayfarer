@@ -9,24 +9,13 @@ export interface Cities {
     heroImage: string[];
 }
 
-function addPosts(cityName: string): any {
-    let cityPosts: Posts[] = [];
-    for (let i = posts.length - 1; i >= 0; i--) {
-        if (posts[i].city === cityName) {
-            cityPosts.push(posts[i]);
-        }
-    }
-
-    return cityPosts;
-}
-
 export const cities: Cities[] = [
     {
         id: 1,
         name: 'San Francisco',
         country: 'United States',
         image: '../../assets/sanfrancisco.jpeg',
-        posts: addPosts('San Francisco'),
+        posts: posts.reverse().filter(post => post.city === 'San Francisco'),
         heroImage: ['../../assets/sanfrancisco.jpg', '../../assets/sanfrancisco2.jpg', '../../assets/sanfrancisco3.jpg']
     },
     {
@@ -34,7 +23,7 @@ export const cities: Cities[] = [
         name: 'London',
         country: 'United Kingdom',
         image: '../../assets/london.jpeg',
-        posts: addPosts('London'),
+        posts: posts.reverse().filter(post => post.city === 'London'),
         heroImage: ['../../assets/london.jpg', '../../assets/london2.jpg', '../../assets/london3.jpg']
     },
     {
@@ -42,7 +31,7 @@ export const cities: Cities[] = [
         name: 'Gibraltar',
         country: 'Spain',
         image: '../../assets/gibraltar.jpeg',
-        posts: addPosts('Gibraltar'),
+        posts: posts.reverse().filter(post => post.city === 'Gibraltar'),
         heroImage: ['../../assets/gilbratar.jpg', '../../assets/gilbratar2.jpg', '../../assets/gilbratar3.jpg']
     },
 ]

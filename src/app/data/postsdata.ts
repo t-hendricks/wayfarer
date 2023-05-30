@@ -9,9 +9,8 @@ export interface Posts {
 }
 
 export const posts: Posts[] = [
- 
     {
-        id: 2,
+        id: 1,
         title: "St. Paul's Cathedral",
         description: "Sir Christopher Wren’s 300-year-old architectural masterpiece is a London icon.",
         image: '../../assets/london-topic2.png',
@@ -20,7 +19,7 @@ export const posts: Posts[] = [
         city: 'London'
     },
     {
-        id: 3,
+        id: 2,
         title: "Westminster Abbey",
         description: "A splendid mixture of architectural styles, Westminster Abbey is considered the finest example of Early English Gothic.",
         image: '../../assets/london-topic1.png',
@@ -29,7 +28,7 @@ export const posts: Posts[] = [
         city: 'London'
     },
     {
-        id: 4,
+        id: 3,
         title: "The Last Colony of Europe",
         description: "Gibraltar is the only remaining colony in Europe. This situation is a vestige of the dynastic conflicts of the Ancien Régime.",
         image: '../../assets/gibraltar-topic2.png',
@@ -38,7 +37,7 @@ export const posts: Posts[] = [
         city: 'Gibraltar'
     },
     {
-        id: 5,
+        id: 4,
         title: "The History of Gibraltar",
         description: "The position of Gibraltar guarding the entrance to the Mediterranean is",
         image: '../../assets/gibraltar-topic1.png',
@@ -47,7 +46,7 @@ export const posts: Posts[] = [
         city: 'Gibraltar'
     },
       {
-        id: 7,
+        id: 5,
         title: "How the 1906 Earthquake Changed San Francisco",
         description: "The nearly 400,000 men, women and children who called San Francisco home",
         image: '../../assets/1906.png',
@@ -56,7 +55,7 @@ export const posts: Posts[] = [
         city: 'San Francisco'
     },
     {
-        id: 8,
+        id: 6,
         title: "11 Things Not to Miss in San Francisco",
         description: "The City by the Bay, packs a lot of fun",
         image: '../../assets/not-to-miss.png',
